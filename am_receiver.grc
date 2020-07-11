@@ -46,7 +46,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>am_receiver</value>
+      <value>dcf77_decode</value>
     </param>
     <param>
       <key>max_nouts</key>
@@ -147,7 +147,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>225000</value>
+      <value>77500</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -155,7 +155,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(96, 276)</value>
+      <value>(416, 28)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -180,6 +180,65 @@
     <param>
       <key>min</key>
       <value>10000</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
+    </param>
+    <param>
+      <key>num_steps</key>
+      <value>1000</value>
+    </param>
+    <param>
+      <key>style</key>
+      <value>wx.SL_HORIZONTAL</value>
+    </param>
+  </block>
+  <block>
+    <key>variable_slider</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>converver</key>
+      <value>float_converter</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>200</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(552, 28)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>narrow_filter</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>Band Pass Width</value>
+    </param>
+    <param>
+      <key>max</key>
+      <value>600</value>
+    </param>
+    <param>
+      <key>min</key>
+      <value>10</value>
     </param>
     <param>
       <key>notebook</key>
@@ -233,6 +292,65 @@
     </param>
     <param>
       <key>value</key>
+      <value>800</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(264, 28)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>sound_frequency</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>Sound frequency</value>
+    </param>
+    <param>
+      <key>max</key>
+      <value>2000</value>
+    </param>
+    <param>
+      <key>min</key>
+      <value>400</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
+    </param>
+    <param>
+      <key>num_steps</key>
+      <value>1000</value>
+    </param>
+    <param>
+      <key>style</key>
+      <value>wx.SL_HORIZONTAL</value>
+    </param>
+  </block>
+  <block>
+    <key>variable_slider</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>converver</key>
+      <value>float_converter</value>
+    </param>
+    <param>
+      <key>value</key>
       <value>1</value>
     </param>
     <param>
@@ -241,7 +359,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(784, 268)</value>
+      <value>(712, 20)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -261,7 +379,7 @@
     </param>
     <param>
       <key>max</key>
-      <value>1</value>
+      <value>3</value>
     </param>
     <param>
       <key>min</key>
@@ -278,61 +396,6 @@
     <param>
       <key>style</key>
       <value>wx.SL_HORIZONTAL</value>
-    </param>
-  </block>
-  <block>
-    <key>analog_am_demod_cf</key>
-    <param>
-      <key>audio_decim</key>
-      <value>decimation</value>
-    </param>
-    <param>
-      <key>audio_pass</key>
-      <value>5000</value>
-    </param>
-    <param>
-      <key>audio_stop</key>
-      <value>5500</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>chan_rate</key>
-      <value>12000</value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(560, 436)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>analog_am_demod_cf_0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
     </param>
   </block>
   <block>
@@ -359,7 +422,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1064, 276)</value>
+      <value>(920, 340)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -380,6 +443,128 @@
     <param>
       <key>samp_rate</key>
       <value>audio_rate</value>
+    </param>
+  </block>
+  <block>
+    <key>band_pass_filter</key>
+    <param>
+      <key>beta</key>
+      <value>6.76</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>fir_filter_ccf</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(608, 564)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>gain</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>high_cutoff_freq</key>
+      <value>sound_frequency+narrow_filter</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>band_pass_filter_0</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>low_cutoff_freq</key>
+      <value>sound_frequency-narrow_filter</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>width</key>
+      <value>sound_frequency</value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>firdes.WIN_HAMMING</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_complex_to_real</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(720, 344)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_complex_to_real_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
     </param>
   </block>
   <block>
@@ -406,7 +591,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(968, 460)</value>
+      <value>(920, 428)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -431,6 +616,65 @@
     <param>
       <key>vlen</key>
       <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>freq_xlating_fir_filter_xxx</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>center_freq</key>
+      <value>sound_frequency</value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(360, 596)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>freq_xlating_fir_filter_xxx_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>taps</key>
+      <value>firdes.low_pass(1,samp_rate,samp_rate/(2*decimation), sound_frequency)</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>ccf</value>
     </param>
   </block>
   <block>
@@ -461,7 +705,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(784, 436)</value>
+      <value>(808, 628)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1796,7 +2040,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(240, 276)</value>
+      <value>(56, 404)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1939,7 +2183,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(560, 188)</value>
+      <value>(360, 340)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2042,7 +2286,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1024, 620)</value>
+      <value>(1032, 572)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2106,7 +2350,13 @@
     </param>
   </block>
   <connection>
-    <source_block_id>analog_am_demod_cf_0</source_block_id>
+    <source_block_id>band_pass_filter_0</source_block_id>
+    <sink_block_id>blocks_complex_to_real_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_complex_to_real_0</source_block_id>
     <sink_block_id>rational_resampler_xxx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
@@ -2124,6 +2374,12 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
+    <source_block_id>freq_xlating_fir_filter_xxx_0</source_block_id>
+    <sink_block_id>band_pass_filter_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>rational_resampler_xxx_0</source_block_id>
     <sink_block_id>blocks_multiply_const_vxx_0</sink_block_id>
     <source_key>0</source_key>
@@ -2131,7 +2387,7 @@
   </connection>
   <connection>
     <source_block_id>rtlsdr_source_0</source_block_id>
-    <sink_block_id>analog_am_demod_cf_0</sink_block_id>
+    <sink_block_id>freq_xlating_fir_filter_xxx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
